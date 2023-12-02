@@ -9,14 +9,14 @@
   --cornflower: #e7e9fc;
 }
 body {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: var(--body-color);
+  background-color: #ffffffff;
 }
 
 .logo-web {
   color: var(--iris);
-  font-family: "Roboto", "sans-serif";
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -24,9 +24,10 @@ body {
   font-weight: 800;
   text-decoration: none;
 }
+
 .logo-studio {
   color: var(--navy-blue);
-  font-family: var(--logo-font-family);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 1.17;
   font-weight: 800;
@@ -38,7 +39,7 @@ body {
 }
 .nav-link {
   color: var(--navy-blue);
-  font-family: var(--text-font-family);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -48,6 +49,9 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+.link {
+  text-decoration: none;
 }
 .address {
   color: var(--slate);
@@ -59,9 +63,14 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.address:hover,
-address:focus {
+.address:hover {
   color: #404bbf;
+}
+.address:focus {
+  color: #404bbf;
+}
+.main-section {
+  background-color: var(--navy-blue);
 }
 .main-header {
   background-color: var(--navy-blue);
@@ -81,9 +90,14 @@ address:focus {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button-main:hover,
+.button-main:hover {
+  background-color: #404bbf;
+}
 .button-main:focus {
   background-color: #404bbf;
+}
+.last-section {
+  background-color: #f4f4fd;
 }
 .button {
   color: var(--iris);
@@ -96,7 +110,6 @@ address:focus {
   background-color: var(--ocean);
 }
 .header-description {
-  font-family: var(--text-font-family);
   color: var(--navy-blue);
   font-size: 20px;
   font-weight: 500;
@@ -106,12 +119,13 @@ address:focus {
 }
 .paragraf {
   color: var(--slate);
-  font-family: var(--text-font-family);
+
   font-size: 16px;
   letter-spacing: 0.02em;
   line-height: 24px;
 }
 .about {
+  background-color: #ffffffff;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -126,4 +140,7 @@ address:focus {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+.logo-studio-footer{
+    color: #f4f4fd;
 }
