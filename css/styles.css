@@ -43,7 +43,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 .nav-link:hover,
@@ -141,6 +141,6 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.logo-studio-footer{
-    color: #f4f4fd;
+.logo-studio-footer {
+  color: #f4f4fd;
 }
