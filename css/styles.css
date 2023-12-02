@@ -90,10 +90,10 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button-main:hover {
+.main-button:hover {
   background-color: #404bbf;
 }
-.button-main:focus {
+.main-button:focus {
   background-color: #404bbf;
 }
 .last-section {
@@ -105,7 +105,9 @@ body {
   border-color: var(--cornflower);
   cursor: pointer;
 }
-.button:hover,
+.button:hover {
+  background-color: var(--ocean);
+}
 .button:focus {
   background-color: var(--ocean);
 }
