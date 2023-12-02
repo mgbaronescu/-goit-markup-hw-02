@@ -119,6 +119,9 @@ address:focus {
   text-transform: capitalize;
   color: var(--navy-blue);
 }
+.background {
+  background-color: var(--navy-blue);
+}
 .footer-paragraf {
   line-height: 1.5;
   color: #f4f4fd;
