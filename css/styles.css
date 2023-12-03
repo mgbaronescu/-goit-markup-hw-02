@@ -91,6 +91,10 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+.button-light{
+  color:#ffffffff;
+  background-color: #4d5ae5;
+}
 .last-section {
   background-color: #f4f4fd;
 }
