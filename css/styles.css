@@ -114,6 +114,9 @@ background-color: #404bbf;
   letter-spacing: 0.02em;
   
 }
+.back{
+  background-color: #ffffffff;
+}
 .paragraf {
   color: var(--slate);
   font-size: 16px;
