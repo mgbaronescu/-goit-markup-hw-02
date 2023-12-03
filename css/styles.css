@@ -95,10 +95,12 @@ body {
   background-color: #f4f4fd;
 }
 .button:hover {
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .button:focus {
-  background-color: #ffffff;
+color: #ffffff;
+background-color: #404bbf;
 }
 .header-description {
   color: var(--navy-blue);
@@ -106,7 +108,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  
 }
 .paragraf {
   color: var(--slate);
