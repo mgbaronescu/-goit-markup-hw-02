@@ -95,10 +95,10 @@ body {
   background-color: #f4f4fd;
 }
 .button:hover {
-  background-color: var(--ocean);
+  background-color: #ffffff;
 }
 .button:focus {
-  background-color: var(--ocean);
+  background-color: #ffffff;
 }
 .header-description {
   color: var(--navy-blue);
